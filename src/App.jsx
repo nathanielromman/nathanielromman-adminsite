@@ -35,6 +35,7 @@ export default function App() {
           <Route path="global" element={<GlobalEditor />} />
           <Route path="/admin/portfolio/:albumId/photos" element={<PortfolioPhotos />} />
           <Route path="/admin/global" element={<GlobalEditor />} />
+          
 
         </Route>
 
